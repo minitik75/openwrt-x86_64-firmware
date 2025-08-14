@@ -27,6 +27,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
+  RUST_BOOTSTRAP_LLVM_DOWNLOAD: if-unchanged
 
 jobs:
   build:
